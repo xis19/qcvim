@@ -10,7 +10,7 @@ elseif exists("b:current_syntax")
     finish
 endif
 
-let b:current_syntax = "gaussian09"
+let b:current_syntax = "gaussian"
 
 
 " Gaussian 09 input file is NOT case sensitive.
