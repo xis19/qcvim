@@ -1,0 +1,15 @@
+! Test check file
+
+%nproc=2
+%chk=test.chk
+%mem=2gb
+# OPT(TIGHT) SCF(TIGHT)
+    GEOM(CHECK)
+
+TITLE
+
+0 1
+C
+
+--LINK1--
+
