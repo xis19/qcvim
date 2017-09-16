@@ -19,3 +19,9 @@ and it should work. If it does not work, confirm
 stays after
 
     call vundle#end()
+
+Examples
+----
+
+## Gaussian
+![alt text](https://raw.githubusercontent.com/xis19/qcvim/master/readme/gaussian.png)
