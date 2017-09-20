@@ -51,7 +51,7 @@ highlight default link gaussianLink1 PreProc
 
 {% for route, arguments in gaussianRouteCommands.items() -%}
 
-syntax match gaussianRouteCommand "{{ route }}"
+syntax match gaussianRouteCommand "\<{{ route }}\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -66,7 +66,7 @@ syntax match gaussianRouteCommandArg{{ route_region_index[0] }}
 
 syntax region gaussianRouteCommandRegion{{ route_region_index[0] }}
     \ matchgroup=gaussianRouteCommand
-    \ start="{{ route }}("
+    \ start="{{ route }}=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg{{ route_region_index[0] }}

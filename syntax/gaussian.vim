@@ -57,7 +57,7 @@ highlight default link gaussianLink1 PreProc
 " Route command
 
 
-syntax match gaussianRouteCommand "ADMP"
+syntax match gaussianRouteCommand "\<ADMP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -113,7 +113,7 @@ syntax match gaussianRouteCommandArg1
 
 syntax region gaussianRouteCommandRegion1
     \ matchgroup=gaussianRouteCommand
-    \ start="ADMP("
+    \ start="ADMP=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg1
@@ -123,7 +123,7 @@ syntax region gaussianRouteCommandRegion1
 highlight link gaussianRouteCommandArg1 Identifier
 
 
-syntax match gaussianRouteCommand "AM1"
+syntax match gaussianRouteCommand "\<AM1\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -175,7 +175,7 @@ syntax match gaussianRouteCommandArg2
 
 syntax region gaussianRouteCommandRegion2
     \ matchgroup=gaussianRouteCommand
-    \ start="AM1("
+    \ start="AM1=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg2
@@ -185,17 +185,17 @@ syntax region gaussianRouteCommandRegion2
 highlight link gaussianRouteCommandArg2 Identifier
 
 
-syntax match gaussianRouteCommand "APF"
+syntax match gaussianRouteCommand "\<APF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "APFD"
+syntax match gaussianRouteCommand "\<APFD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Amber"
+syntax match gaussianRouteCommand "\<Amber\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -267,7 +267,7 @@ syntax match gaussianRouteCommandArg3
 
 syntax region gaussianRouteCommandRegion3
     \ matchgroup=gaussianRouteCommand
-    \ start="Amber("
+    \ start="Amber=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg3
@@ -277,77 +277,77 @@ syntax region gaussianRouteCommandRegion3
 highlight link gaussianRouteCommandArg3 Identifier
 
 
-syntax match gaussianRouteCommand "B1B95"
+syntax match gaussianRouteCommand "\<B1B95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B1LYP"
+syntax match gaussianRouteCommand "\<B1LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B2PLYPD"
+syntax match gaussianRouteCommand "\<B2PLYPD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B2PLYPD3"
+syntax match gaussianRouteCommand "\<B2PLYPD3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B3LYP"
+syntax match gaussianRouteCommand "\<B3LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B3P86"
+syntax match gaussianRouteCommand "\<B3P86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B3PW91"
+syntax match gaussianRouteCommand "\<B3PW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B971"
+syntax match gaussianRouteCommand "\<B971\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B972"
+syntax match gaussianRouteCommand "\<B972\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B97D"
+syntax match gaussianRouteCommand "\<B97D\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B97D3"
+syntax match gaussianRouteCommand "\<B97D3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "B98"
+syntax match gaussianRouteCommand "\<B98\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BB95"
+syntax match gaussianRouteCommand "\<BB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BBRC"
+syntax match gaussianRouteCommand "\<BBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BD"
+syntax match gaussianRouteCommand "\<BD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -403,7 +403,7 @@ syntax match gaussianRouteCommandArg4
 
 syntax region gaussianRouteCommandRegion4
     \ matchgroup=gaussianRouteCommand
-    \ start="BD("
+    \ start="BD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg4
@@ -413,32 +413,32 @@ syntax region gaussianRouteCommandRegion4
 highlight link gaussianRouteCommandArg4 Identifier
 
 
-syntax match gaussianRouteCommand "BHandH"
+syntax match gaussianRouteCommand "\<BHandH\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BHandHLYP"
+syntax match gaussianRouteCommand "\<BHandHLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BKCIS"
+syntax match gaussianRouteCommand "\<BKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BLYP"
+syntax match gaussianRouteCommand "\<BLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BMK"
+syntax match gaussianRouteCommand "\<BMK\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BOMD"
+syntax match gaussianRouteCommand "\<BOMD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -506,7 +506,7 @@ syntax match gaussianRouteCommandArg5
 
 syntax region gaussianRouteCommandRegion5
     \ matchgroup=gaussianRouteCommand
-    \ start="BOMD("
+    \ start="BOMD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg5
@@ -516,142 +516,142 @@ syntax region gaussianRouteCommandRegion5
 highlight link gaussianRouteCommandArg5 Identifier
 
 
-syntax match gaussianRouteCommand "BP86"
+syntax match gaussianRouteCommand "\<BP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BPBE"
+syntax match gaussianRouteCommand "\<BPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BPKZB"
+syntax match gaussianRouteCommand "\<BPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BPL"
+syntax match gaussianRouteCommand "\<BPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BPW91"
+syntax match gaussianRouteCommand "\<BPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRevTPSS"
+syntax match gaussianRouteCommand "\<BRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxB95"
+syntax match gaussianRouteCommand "\<BRxB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxBRC"
+syntax match gaussianRouteCommand "\<BRxBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxKCIS"
+syntax match gaussianRouteCommand "\<BRxKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxLYP"
+syntax match gaussianRouteCommand "\<BRxLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxP86"
+syntax match gaussianRouteCommand "\<BRxP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxPBE"
+syntax match gaussianRouteCommand "\<BRxPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxPKZB"
+syntax match gaussianRouteCommand "\<BRxPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxPL"
+syntax match gaussianRouteCommand "\<BRxPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxPW91"
+syntax match gaussianRouteCommand "\<BRxPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxRevTPSS"
+syntax match gaussianRouteCommand "\<BRxRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxTPSS"
+syntax match gaussianRouteCommand "\<BRxTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxV5LYP"
+syntax match gaussianRouteCommand "\<BRxV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxVP86"
+syntax match gaussianRouteCommand "\<BRxVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxVWN"
+syntax match gaussianRouteCommand "\<BRxVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BRxVWN5"
+syntax match gaussianRouteCommand "\<BRxVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BTPSS"
+syntax match gaussianRouteCommand "\<BTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BV5LYP"
+syntax match gaussianRouteCommand "\<BV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BVP86"
+syntax match gaussianRouteCommand "\<BVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BVWN"
+syntax match gaussianRouteCommand "\<BVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "BVWN5"
+syntax match gaussianRouteCommand "\<BVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "CAM-B3LYP"
+syntax match gaussianRouteCommand "\<CAM-B3LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "CAS"
+syntax match gaussianRouteCommand "\<CAS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -723,7 +723,7 @@ syntax match gaussianRouteCommandArg6
 
 syntax region gaussianRouteCommandRegion6
     \ matchgroup=gaussianRouteCommand
-    \ start="CAS("
+    \ start="CAS=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg6
@@ -733,7 +733,7 @@ syntax region gaussianRouteCommandRegion6
 highlight link gaussianRouteCommandArg6 Identifier
 
 
-syntax match gaussianRouteCommand "CASSCF"
+syntax match gaussianRouteCommand "\<CASSCF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -805,7 +805,7 @@ syntax match gaussianRouteCommandArg7
 
 syntax region gaussianRouteCommandRegion7
     \ matchgroup=gaussianRouteCommand
-    \ start="CASSCF("
+    \ start="CASSCF=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg7
@@ -815,7 +815,7 @@ syntax region gaussianRouteCommandRegion7
 highlight link gaussianRouteCommandArg7 Identifier
 
 
-syntax match gaussianRouteCommand "CBS-4M"
+syntax match gaussianRouteCommand "\<CBS-4M\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -839,7 +839,7 @@ syntax match gaussianRouteCommandArg8
 
 syntax region gaussianRouteCommandRegion8
     \ matchgroup=gaussianRouteCommand
-    \ start="CBS-4M("
+    \ start="CBS-4M=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg8
@@ -849,7 +849,7 @@ syntax region gaussianRouteCommandRegion8
 highlight link gaussianRouteCommandArg8 Identifier
 
 
-syntax match gaussianRouteCommand "CBS-APNO"
+syntax match gaussianRouteCommand "\<CBS-APNO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -873,7 +873,7 @@ syntax match gaussianRouteCommandArg9
 
 syntax region gaussianRouteCommandRegion9
     \ matchgroup=gaussianRouteCommand
-    \ start="CBS-APNO("
+    \ start="CBS-APNO=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg9
@@ -883,7 +883,7 @@ syntax region gaussianRouteCommandRegion9
 highlight link gaussianRouteCommandArg9 Identifier
 
 
-syntax match gaussianRouteCommand "CBS-QB3"
+syntax match gaussianRouteCommand "\<CBS-QB3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -907,7 +907,7 @@ syntax match gaussianRouteCommandArg10
 
 syntax region gaussianRouteCommandRegion10
     \ matchgroup=gaussianRouteCommand
-    \ start="CBS-QB3("
+    \ start="CBS-QB3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg10
@@ -917,7 +917,7 @@ syntax region gaussianRouteCommandRegion10
 highlight link gaussianRouteCommandArg10 Identifier
 
 
-syntax match gaussianRouteCommand "CBSExtrapolate"
+syntax match gaussianRouteCommand "\<CBSExtrapolate\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -961,7 +961,7 @@ syntax match gaussianRouteCommandArg11
 
 syntax region gaussianRouteCommandRegion11
     \ matchgroup=gaussianRouteCommand
-    \ start="CBSExtrapolate("
+    \ start="CBSExtrapolate=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg11
@@ -971,7 +971,7 @@ syntax region gaussianRouteCommandRegion11
 highlight link gaussianRouteCommandArg11 Identifier
 
 
-syntax match gaussianRouteCommand "CC"
+syntax match gaussianRouteCommand "\<CC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1003,7 +1003,7 @@ syntax match gaussianRouteCommandArg12
 
 syntax region gaussianRouteCommandRegion12
     \ matchgroup=gaussianRouteCommand
-    \ start="CC("
+    \ start="CC=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg12
@@ -1013,7 +1013,7 @@ syntax region gaussianRouteCommandRegion12
 highlight link gaussianRouteCommandArg12 Identifier
 
 
-syntax match gaussianRouteCommand "CCD"
+syntax match gaussianRouteCommand "\<CCD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1045,7 +1045,7 @@ syntax match gaussianRouteCommandArg13
 
 syntax region gaussianRouteCommandRegion13
     \ matchgroup=gaussianRouteCommand
-    \ start="CCD("
+    \ start="CCD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg13
@@ -1055,7 +1055,7 @@ syntax region gaussianRouteCommandRegion13
 highlight link gaussianRouteCommandArg13 Identifier
 
 
-syntax match gaussianRouteCommand "CCSD"
+syntax match gaussianRouteCommand "\<CCSD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1099,7 +1099,7 @@ syntax match gaussianRouteCommandArg14
 
 syntax region gaussianRouteCommandRegion14
     \ matchgroup=gaussianRouteCommand
-    \ start="CCSD("
+    \ start="CCSD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg14
@@ -1109,7 +1109,7 @@ syntax region gaussianRouteCommandRegion14
 highlight link gaussianRouteCommandArg14 Identifier
 
 
-syntax match gaussianRouteCommand "CCSD-T"
+syntax match gaussianRouteCommand "\<CCSD-T\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1149,7 +1149,7 @@ syntax match gaussianRouteCommandArg15
 
 syntax region gaussianRouteCommandRegion15
     \ matchgroup=gaussianRouteCommand
-    \ start="CCSD-T("
+    \ start="CCSD-T=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg15
@@ -1159,7 +1159,7 @@ syntax region gaussianRouteCommandRegion15
 highlight link gaussianRouteCommandArg15 Identifier
 
 
-syntax match gaussianRouteCommand "CI"
+syntax match gaussianRouteCommand "\<CI\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1187,7 +1187,7 @@ syntax match gaussianRouteCommandArg16
 
 syntax region gaussianRouteCommandRegion16
     \ matchgroup=gaussianRouteCommand
-    \ start="CI("
+    \ start="CI=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg16
@@ -1197,7 +1197,7 @@ syntax region gaussianRouteCommandRegion16
 highlight link gaussianRouteCommandArg16 Identifier
 
 
-syntax match gaussianRouteCommand "CID"
+syntax match gaussianRouteCommand "\<CID\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1225,7 +1225,7 @@ syntax match gaussianRouteCommandArg17
 
 syntax region gaussianRouteCommandRegion17
     \ matchgroup=gaussianRouteCommand
-    \ start="CID("
+    \ start="CID=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg17
@@ -1235,7 +1235,7 @@ syntax region gaussianRouteCommandRegion17
 highlight link gaussianRouteCommandArg17 Identifier
 
 
-syntax match gaussianRouteCommand "CIS"
+syntax match gaussianRouteCommand "\<CIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1347,7 +1347,7 @@ syntax match gaussianRouteCommandArg18
 
 syntax region gaussianRouteCommandRegion18
     \ matchgroup=gaussianRouteCommand
-    \ start="CIS("
+    \ start="CIS=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg18
@@ -1357,7 +1357,7 @@ syntax region gaussianRouteCommandRegion18
 highlight link gaussianRouteCommandArg18 Identifier
 
 
-syntax match gaussianRouteCommand "CISD"
+syntax match gaussianRouteCommand "\<CISD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1385,7 +1385,7 @@ syntax match gaussianRouteCommandArg19
 
 syntax region gaussianRouteCommandRegion19
     \ matchgroup=gaussianRouteCommand
-    \ start="CISD("
+    \ start="CISD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg19
@@ -1395,12 +1395,12 @@ syntax region gaussianRouteCommandRegion19
 highlight link gaussianRouteCommandArg19 Identifier
 
 
-syntax match gaussianRouteCommand "CNDO"
+syntax match gaussianRouteCommand "\<CNDO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "CPHF"
+syntax match gaussianRouteCommand "\<CPHF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1480,7 +1480,7 @@ syntax match gaussianRouteCommandArg20
 
 syntax region gaussianRouteCommandRegion20
     \ matchgroup=gaussianRouteCommand
-    \ start="CPHF("
+    \ start="CPHF=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg20
@@ -1490,12 +1490,12 @@ syntax region gaussianRouteCommandRegion20
 highlight link gaussianRouteCommandArg20 Identifier
 
 
-syntax match gaussianRouteCommand "CacheSize"
+syntax match gaussianRouteCommand "\<CacheSize\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Charge"
+syntax match gaussianRouteCommand "\<Charge\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1515,7 +1515,7 @@ syntax match gaussianRouteCommandArg21
 
 syntax region gaussianRouteCommandRegion21
     \ matchgroup=gaussianRouteCommand
-    \ start="Charge("
+    \ start="Charge=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg21
@@ -1525,27 +1525,27 @@ syntax region gaussianRouteCommandRegion21
 highlight link gaussianRouteCommandArg21 Identifier
 
 
-syntax match gaussianRouteCommand "CheckBasis"
+syntax match gaussianRouteCommand "\<CheckBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "CheckPointBasis"
+syntax match gaussianRouteCommand "\<CheckPointBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ChkBasis"
+syntax match gaussianRouteCommand "\<ChkBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Complex"
+syntax match gaussianRouteCommand "\<Complex\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Constants"
+syntax match gaussianRouteCommand "\<Constants\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1573,7 +1573,7 @@ syntax match gaussianRouteCommandArg22
 
 syntax region gaussianRouteCommandRegion22
     \ matchgroup=gaussianRouteCommand
-    \ start="Constants("
+    \ start="Constants=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg22
@@ -1583,7 +1583,7 @@ syntax region gaussianRouteCommandRegion22
 highlight link gaussianRouteCommandArg22 Identifier
 
 
-syntax match gaussianRouteCommand "Counterpoise"
+syntax match gaussianRouteCommand "\<Counterpoise\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1599,7 +1599,7 @@ syntax match gaussianRouteCommandArg23
 
 syntax region gaussianRouteCommandRegion23
     \ matchgroup=gaussianRouteCommand
-    \ start="Counterpoise("
+    \ start="Counterpoise=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg23
@@ -1609,7 +1609,7 @@ syntax region gaussianRouteCommandRegion23
 highlight link gaussianRouteCommandArg23 Identifier
 
 
-syntax match gaussianRouteCommand "DFTB"
+syntax match gaussianRouteCommand "\<DFTB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1625,7 +1625,7 @@ syntax match gaussianRouteCommandArg24
 
 syntax region gaussianRouteCommandRegion24
     \ matchgroup=gaussianRouteCommand
-    \ start="DFTB("
+    \ start="DFTB=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg24
@@ -1635,7 +1635,7 @@ syntax region gaussianRouteCommandRegion24
 highlight link gaussianRouteCommandArg24 Identifier
 
 
-syntax match gaussianRouteCommand "DFTBA"
+syntax match gaussianRouteCommand "\<DFTBA\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1651,7 +1651,7 @@ syntax match gaussianRouteCommandArg25
 
 syntax region gaussianRouteCommandRegion25
     \ matchgroup=gaussianRouteCommand
-    \ start="DFTBA("
+    \ start="DFTBA=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg25
@@ -1661,7 +1661,7 @@ syntax region gaussianRouteCommandRegion25
 highlight link gaussianRouteCommandArg25 Identifier
 
 
-syntax match gaussianRouteCommand "DenFit"
+syntax match gaussianRouteCommand "\<DenFit\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1697,7 +1697,7 @@ syntax match gaussianRouteCommandArg26
 
 syntax region gaussianRouteCommandRegion26
     \ matchgroup=gaussianRouteCommand
-    \ start="DenFit("
+    \ start="DenFit=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg26
@@ -1707,7 +1707,7 @@ syntax region gaussianRouteCommandRegion26
 highlight link gaussianRouteCommandArg26 Identifier
 
 
-syntax match gaussianRouteCommand "Density"
+syntax match gaussianRouteCommand "\<Density\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1763,7 +1763,7 @@ syntax match gaussianRouteCommandArg27
 
 syntax region gaussianRouteCommandRegion27
     \ matchgroup=gaussianRouteCommand
-    \ start="Density("
+    \ start="Density=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg27
@@ -1773,7 +1773,7 @@ syntax region gaussianRouteCommandRegion27
 highlight link gaussianRouteCommandArg27 Identifier
 
 
-syntax match gaussianRouteCommand "DensityFit"
+syntax match gaussianRouteCommand "\<DensityFit\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1809,7 +1809,7 @@ syntax match gaussianRouteCommandArg28
 
 syntax region gaussianRouteCommandRegion28
     \ matchgroup=gaussianRouteCommand
-    \ start="DensityFit("
+    \ start="DensityFit=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg28
@@ -1819,7 +1819,7 @@ syntax region gaussianRouteCommandRegion28
 highlight link gaussianRouteCommandArg28 Identifier
 
 
-syntax match gaussianRouteCommand "Dreiding"
+syntax match gaussianRouteCommand "\<Dreiding\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1891,7 +1891,7 @@ syntax match gaussianRouteCommandArg29
 
 syntax region gaussianRouteCommandRegion29
     \ matchgroup=gaussianRouteCommand
-    \ start="Dreiding("
+    \ start="Dreiding=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg29
@@ -1901,7 +1901,7 @@ syntax region gaussianRouteCommandRegion29
 highlight link gaussianRouteCommandArg29 Identifier
 
 
-syntax match gaussianRouteCommand "EET"
+syntax match gaussianRouteCommand "\<EET\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -1929,7 +1929,7 @@ syntax match gaussianRouteCommandArg30
 
 syntax region gaussianRouteCommandRegion30
     \ matchgroup=gaussianRouteCommand
-    \ start="EET("
+    \ start="EET=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg30
@@ -1939,7 +1939,7 @@ syntax region gaussianRouteCommandRegion30
 highlight link gaussianRouteCommandArg30 Identifier
 
 
-syntax match gaussianRouteCommand "EOMCCSD"
+syntax match gaussianRouteCommand "\<EOMCCSD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2011,7 +2011,7 @@ syntax match gaussianRouteCommandArg31
 
 syntax region gaussianRouteCommandRegion31
     \ matchgroup=gaussianRouteCommand
-    \ start="EOMCCSD("
+    \ start="EOMCCSD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg31
@@ -2021,7 +2021,7 @@ syntax region gaussianRouteCommandRegion31
 highlight link gaussianRouteCommandArg31 Identifier
 
 
-syntax match gaussianRouteCommand "EPT"
+syntax match gaussianRouteCommand "\<EPT\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2057,7 +2057,7 @@ syntax match gaussianRouteCommandArg32
 
 syntax region gaussianRouteCommandRegion32
     \ matchgroup=gaussianRouteCommand
-    \ start="EPT("
+    \ start="EPT=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg32
@@ -2067,7 +2067,7 @@ syntax region gaussianRouteCommandRegion32
 highlight link gaussianRouteCommandArg32 Identifier
 
 
-syntax match gaussianRouteCommand "EmpiricalDispersion"
+syntax match gaussianRouteCommand "\<EmpiricalDispersion\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2087,7 +2087,7 @@ syntax match gaussianRouteCommandArg33
 
 syntax region gaussianRouteCommandRegion33
     \ matchgroup=gaussianRouteCommand
-    \ start="EmpiricalDispersion("
+    \ start="EmpiricalDispersion=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg33
@@ -2097,7 +2097,7 @@ syntax region gaussianRouteCommandRegion33
 highlight link gaussianRouteCommandArg33 Identifier
 
 
-syntax match gaussianRouteCommand "External"
+syntax match gaussianRouteCommand "\<External\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2129,7 +2129,7 @@ syntax match gaussianRouteCommandArg34
 
 syntax region gaussianRouteCommandRegion34
     \ matchgroup=gaussianRouteCommand
-    \ start="External("
+    \ start="External=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg34
@@ -2139,22 +2139,22 @@ syntax region gaussianRouteCommandRegion34
 highlight link gaussianRouteCommandArg34 Identifier
 
 
-syntax match gaussianRouteCommand "ExtraBasis"
+syntax match gaussianRouteCommand "\<ExtraBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ExtraDensityBasis"
+syntax match gaussianRouteCommand "\<ExtraDensityBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "FMM"
+syntax match gaussianRouteCommand "\<FMM\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Field"
+syntax match gaussianRouteCommand "\<Field\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2190,7 +2190,7 @@ syntax match gaussianRouteCommandArg35
 
 syntax region gaussianRouteCommandRegion35
     \ matchgroup=gaussianRouteCommand
-    \ start="Field("
+    \ start="Field=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg35
@@ -2200,7 +2200,7 @@ syntax region gaussianRouteCommandRegion35
 highlight link gaussianRouteCommandArg35 Identifier
 
 
-syntax match gaussianRouteCommand "Force"
+syntax match gaussianRouteCommand "\<Force\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2224,7 +2224,7 @@ syntax match gaussianRouteCommandArg36
 
 syntax region gaussianRouteCommandRegion36
     \ matchgroup=gaussianRouteCommand
-    \ start="Force("
+    \ start="Force=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg36
@@ -2234,7 +2234,7 @@ syntax region gaussianRouteCommandRegion36
 highlight link gaussianRouteCommandArg36 Identifier
 
 
-syntax match gaussianRouteCommand "Freq"
+syntax match gaussianRouteCommand "\<Freq\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2426,7 +2426,7 @@ syntax match gaussianRouteCommandArg37
 
 syntax region gaussianRouteCommandRegion37
     \ matchgroup=gaussianRouteCommand
-    \ start="Freq("
+    \ start="Freq=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg37
@@ -2436,7 +2436,7 @@ syntax region gaussianRouteCommandRegion37
 highlight link gaussianRouteCommandArg37 Identifier
 
 
-syntax match gaussianRouteCommand "G1"
+syntax match gaussianRouteCommand "\<G1\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2460,7 +2460,7 @@ syntax match gaussianRouteCommandArg38
 
 syntax region gaussianRouteCommandRegion38
     \ matchgroup=gaussianRouteCommand
-    \ start="G1("
+    \ start="G1=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg38
@@ -2470,7 +2470,7 @@ syntax region gaussianRouteCommandRegion38
 highlight link gaussianRouteCommandArg38 Identifier
 
 
-syntax match gaussianRouteCommand "G2"
+syntax match gaussianRouteCommand "\<G2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2494,7 +2494,7 @@ syntax match gaussianRouteCommandArg39
 
 syntax region gaussianRouteCommandRegion39
     \ matchgroup=gaussianRouteCommand
-    \ start="G2("
+    \ start="G2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg39
@@ -2504,7 +2504,7 @@ syntax region gaussianRouteCommandRegion39
 highlight link gaussianRouteCommandArg39 Identifier
 
 
-syntax match gaussianRouteCommand "G2MP2"
+syntax match gaussianRouteCommand "\<G2MP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2528,7 +2528,7 @@ syntax match gaussianRouteCommandArg40
 
 syntax region gaussianRouteCommandRegion40
     \ matchgroup=gaussianRouteCommand
-    \ start="G2MP2("
+    \ start="G2MP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg40
@@ -2538,7 +2538,7 @@ syntax region gaussianRouteCommandRegion40
 highlight link gaussianRouteCommandArg40 Identifier
 
 
-syntax match gaussianRouteCommand "G3"
+syntax match gaussianRouteCommand "\<G3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2562,7 +2562,7 @@ syntax match gaussianRouteCommandArg41
 
 syntax region gaussianRouteCommandRegion41
     \ matchgroup=gaussianRouteCommand
-    \ start="G3("
+    \ start="G3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg41
@@ -2572,7 +2572,7 @@ syntax region gaussianRouteCommandRegion41
 highlight link gaussianRouteCommandArg41 Identifier
 
 
-syntax match gaussianRouteCommand "G3B3"
+syntax match gaussianRouteCommand "\<G3B3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2596,7 +2596,7 @@ syntax match gaussianRouteCommandArg42
 
 syntax region gaussianRouteCommandRegion42
     \ matchgroup=gaussianRouteCommand
-    \ start="G3B3("
+    \ start="G3B3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg42
@@ -2606,7 +2606,7 @@ syntax region gaussianRouteCommandRegion42
 highlight link gaussianRouteCommandArg42 Identifier
 
 
-syntax match gaussianRouteCommand "G3MP2"
+syntax match gaussianRouteCommand "\<G3MP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2630,7 +2630,7 @@ syntax match gaussianRouteCommandArg43
 
 syntax region gaussianRouteCommandRegion43
     \ matchgroup=gaussianRouteCommand
-    \ start="G3MP2("
+    \ start="G3MP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg43
@@ -2640,7 +2640,7 @@ syntax region gaussianRouteCommandRegion43
 highlight link gaussianRouteCommandArg43 Identifier
 
 
-syntax match gaussianRouteCommand "G3MP2B3"
+syntax match gaussianRouteCommand "\<G3MP2B3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2664,7 +2664,7 @@ syntax match gaussianRouteCommandArg44
 
 syntax region gaussianRouteCommandRegion44
     \ matchgroup=gaussianRouteCommand
-    \ start="G3MP2B3("
+    \ start="G3MP2B3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg44
@@ -2674,7 +2674,7 @@ syntax region gaussianRouteCommandRegion44
 highlight link gaussianRouteCommandArg44 Identifier
 
 
-syntax match gaussianRouteCommand "G4"
+syntax match gaussianRouteCommand "\<G4\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2698,7 +2698,7 @@ syntax match gaussianRouteCommandArg45
 
 syntax region gaussianRouteCommandRegion45
     \ matchgroup=gaussianRouteCommand
-    \ start="G4("
+    \ start="G4=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg45
@@ -2708,7 +2708,7 @@ syntax region gaussianRouteCommandRegion45
 highlight link gaussianRouteCommandArg45 Identifier
 
 
-syntax match gaussianRouteCommand "G4MP2"
+syntax match gaussianRouteCommand "\<G4MP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2732,7 +2732,7 @@ syntax match gaussianRouteCommandArg46
 
 syntax region gaussianRouteCommandRegion46
     \ matchgroup=gaussianRouteCommand
-    \ start="G4MP2("
+    \ start="G4MP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg46
@@ -2742,82 +2742,82 @@ syntax region gaussianRouteCommandRegion46
 highlight link gaussianRouteCommandArg46 Identifier
 
 
-syntax match gaussianRouteCommand "G96B95"
+syntax match gaussianRouteCommand "\<G96B95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96BRC"
+syntax match gaussianRouteCommand "\<G96BRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96KCIS"
+syntax match gaussianRouteCommand "\<G96KCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96LYP"
+syntax match gaussianRouteCommand "\<G96LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96P86"
+syntax match gaussianRouteCommand "\<G96P86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96PBE"
+syntax match gaussianRouteCommand "\<G96PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96PKZB"
+syntax match gaussianRouteCommand "\<G96PKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96PL"
+syntax match gaussianRouteCommand "\<G96PL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96PW91"
+syntax match gaussianRouteCommand "\<G96PW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96RevTPSS"
+syntax match gaussianRouteCommand "\<G96RevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96TPSS"
+syntax match gaussianRouteCommand "\<G96TPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96V5LYP"
+syntax match gaussianRouteCommand "\<G96V5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96VP86"
+syntax match gaussianRouteCommand "\<G96VP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96VWN"
+syntax match gaussianRouteCommand "\<G96VWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "G96VWN5"
+syntax match gaussianRouteCommand "\<G96VWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "GFInput"
+syntax match gaussianRouteCommand "\<GFInput\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2837,7 +2837,7 @@ syntax match gaussianRouteCommandArg47
 
 syntax region gaussianRouteCommandRegion47
     \ matchgroup=gaussianRouteCommand
-    \ start="GFInput("
+    \ start="GFInput=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg47
@@ -2847,12 +2847,12 @@ syntax region gaussianRouteCommandRegion47
 highlight link gaussianRouteCommandArg47 Identifier
 
 
-syntax match gaussianRouteCommand "GFPrint"
+syntax match gaussianRouteCommand "\<GFPrint\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "GVB"
+syntax match gaussianRouteCommand "\<GVB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2876,7 +2876,7 @@ syntax match gaussianRouteCommandArg48
 
 syntax region gaussianRouteCommandRegion48
     \ matchgroup=gaussianRouteCommand
-    \ start="GVB("
+    \ start="GVB=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg48
@@ -2886,7 +2886,7 @@ syntax region gaussianRouteCommandRegion48
 highlight link gaussianRouteCommandArg48 Identifier
 
 
-syntax match gaussianRouteCommand "Gen"
+syntax match gaussianRouteCommand "\<Gen\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2898,7 +2898,7 @@ syntax match gaussianRouteCommandArg49
 
 syntax region gaussianRouteCommandRegion49
     \ matchgroup=gaussianRouteCommand
-    \ start="Gen("
+    \ start="Gen=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg49
@@ -2908,12 +2908,12 @@ syntax region gaussianRouteCommandRegion49
 highlight link gaussianRouteCommandArg49 Identifier
 
 
-syntax match gaussianRouteCommand "GenChk"
+syntax match gaussianRouteCommand "\<GenChk\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "GenECP"
+syntax match gaussianRouteCommand "\<GenECP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -2925,7 +2925,7 @@ syntax match gaussianRouteCommandArg50
 
 syntax region gaussianRouteCommandRegion50
     \ matchgroup=gaussianRouteCommand
-    \ start="GenECP("
+    \ start="GenECP=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg50
@@ -2935,7 +2935,7 @@ syntax region gaussianRouteCommandRegion50
 highlight link gaussianRouteCommandArg50 Identifier
 
 
-syntax match gaussianRouteCommand "Geom"
+syntax match gaussianRouteCommand "\<Geom\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3083,7 +3083,7 @@ syntax match gaussianRouteCommandArg51
 
 syntax region gaussianRouteCommandRegion51
     \ matchgroup=gaussianRouteCommand
-    \ start="Geom("
+    \ start="Geom=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg51
@@ -3093,7 +3093,7 @@ syntax region gaussianRouteCommandRegion51
 highlight link gaussianRouteCommandArg51 Identifier
 
 
-syntax match gaussianRouteCommand "Guess"
+syntax match gaussianRouteCommand "\<Guess\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3237,7 +3237,7 @@ syntax match gaussianRouteCommandArg52
 
 syntax region gaussianRouteCommandRegion52
     \ matchgroup=gaussianRouteCommand
-    \ start="Guess("
+    \ start="Guess=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg52
@@ -3247,192 +3247,192 @@ syntax region gaussianRouteCommandRegion52
 highlight link gaussianRouteCommandArg52 Identifier
 
 
-syntax match gaussianRouteCommand "HCTH"
+syntax match gaussianRouteCommand "\<HCTH\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HCTH147"
+syntax match gaussianRouteCommand "\<HCTH147\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HCTH407"
+syntax match gaussianRouteCommand "\<HCTH407\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HCTH93"
+syntax match gaussianRouteCommand "\<HCTH93\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HF"
+syntax match gaussianRouteCommand "\<HF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBB95"
+syntax match gaussianRouteCommand "\<HFBB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBBRC"
+syntax match gaussianRouteCommand "\<HFBBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBKCIS"
+syntax match gaussianRouteCommand "\<HFBKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBLYP"
+syntax match gaussianRouteCommand "\<HFBLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBP86"
+syntax match gaussianRouteCommand "\<HFBP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBPBE"
+syntax match gaussianRouteCommand "\<HFBPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBPKZB"
+syntax match gaussianRouteCommand "\<HFBPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBPL"
+syntax match gaussianRouteCommand "\<HFBPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBPW91"
+syntax match gaussianRouteCommand "\<HFBPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBRevTPSS"
+syntax match gaussianRouteCommand "\<HFBRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBTPSS"
+syntax match gaussianRouteCommand "\<HFBTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBV5LYP"
+syntax match gaussianRouteCommand "\<HFBV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBVP86"
+syntax match gaussianRouteCommand "\<HFBVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBVWN"
+syntax match gaussianRouteCommand "\<HFBVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFBVWN5"
+syntax match gaussianRouteCommand "\<HFBVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSB95"
+syntax match gaussianRouteCommand "\<HFSB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSBRC"
+syntax match gaussianRouteCommand "\<HFSBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSKCIS"
+syntax match gaussianRouteCommand "\<HFSKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSLYP"
+syntax match gaussianRouteCommand "\<HFSLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSP86"
+syntax match gaussianRouteCommand "\<HFSP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSPBE"
+syntax match gaussianRouteCommand "\<HFSPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSPKZB"
+syntax match gaussianRouteCommand "\<HFSPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSPL"
+syntax match gaussianRouteCommand "\<HFSPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSPW91"
+syntax match gaussianRouteCommand "\<HFSPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSRevTPSS"
+syntax match gaussianRouteCommand "\<HFSRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSTPSS"
+syntax match gaussianRouteCommand "\<HFSTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSV5LYP"
+syntax match gaussianRouteCommand "\<HFSV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSVP86"
+syntax match gaussianRouteCommand "\<HFSVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSVWN"
+syntax match gaussianRouteCommand "\<HFSVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HFSVWN5"
+syntax match gaussianRouteCommand "\<HFSVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HISSbPBE"
+syntax match gaussianRouteCommand "\<HISSbPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "HSEH1PBE"
+syntax match gaussianRouteCommand "\<HSEH1PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Huckel"
+syntax match gaussianRouteCommand "\<Huckel\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3452,7 +3452,7 @@ syntax match gaussianRouteCommandArg53
 
 syntax region gaussianRouteCommandRegion53
     \ matchgroup=gaussianRouteCommand
-    \ start="Huckel("
+    \ start="Huckel=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg53
@@ -3462,17 +3462,17 @@ syntax region gaussianRouteCommandRegion53
 highlight link gaussianRouteCommandArg53 Identifier
 
 
-syntax match gaussianRouteCommand "INDO"
+syntax match gaussianRouteCommand "\<INDO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "IOp"
+syntax match gaussianRouteCommand "\<IOp\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "IRC"
+syntax match gaussianRouteCommand "\<IRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3616,7 +3616,7 @@ syntax match gaussianRouteCommandArg54
 
 syntax region gaussianRouteCommandRegion54
     \ matchgroup=gaussianRouteCommand
-    \ start="IRC("
+    \ start="IRC=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg54
@@ -3626,7 +3626,7 @@ syntax region gaussianRouteCommandRegion54
 highlight link gaussianRouteCommandArg54 Identifier
 
 
-syntax match gaussianRouteCommand "IRCMax"
+syntax match gaussianRouteCommand "\<IRCMax\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3694,7 +3694,7 @@ syntax match gaussianRouteCommandArg55
 
 syntax region gaussianRouteCommandRegion55
     \ matchgroup=gaussianRouteCommand
-    \ start="IRCMax("
+    \ start="IRCMax=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg55
@@ -3704,7 +3704,7 @@ syntax region gaussianRouteCommandRegion55
 highlight link gaussianRouteCommandArg55 Identifier
 
 
-syntax match gaussianRouteCommand "Int"
+syntax match gaussianRouteCommand "\<Int\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -3888,7 +3888,7 @@ syntax match gaussianRouteCommandArg56
 
 syntax region gaussianRouteCommandRegion56
     \ matchgroup=gaussianRouteCommand
-    \ start="Int("
+    \ start="Int=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg56
@@ -3898,7 +3898,7 @@ syntax region gaussianRouteCommandRegion56
 highlight link gaussianRouteCommandArg56 Identifier
 
 
-syntax match gaussianRouteCommand "Integral"
+syntax match gaussianRouteCommand "\<Integral\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4082,7 +4082,7 @@ syntax match gaussianRouteCommandArg57
 
 syntax region gaussianRouteCommandRegion57
     \ matchgroup=gaussianRouteCommand
-    \ start="Integral("
+    \ start="Integral=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg57
@@ -4092,107 +4092,107 @@ syntax region gaussianRouteCommandRegion57
 highlight link gaussianRouteCommandArg57 Identifier
 
 
-syntax match gaussianRouteCommand "LC-"
+syntax match gaussianRouteCommand "\<LC-\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "LC-BLYP"
+syntax match gaussianRouteCommand "\<LC-BLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "LC-wHPBE"
+syntax match gaussianRouteCommand "\<LC-wHPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "LC-wPBE"
+syntax match gaussianRouteCommand "\<LC-wPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "LSDA"
+syntax match gaussianRouteCommand "\<LSDA\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M05"
+syntax match gaussianRouteCommand "\<M05\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M052X"
+syntax match gaussianRouteCommand "\<M052X\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M06"
+syntax match gaussianRouteCommand "\<M06\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M062X"
+syntax match gaussianRouteCommand "\<M062X\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M06HF"
+syntax match gaussianRouteCommand "\<M06HF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M06L"
+syntax match gaussianRouteCommand "\<M06L\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M08HX"
+syntax match gaussianRouteCommand "\<M08HX\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M11"
+syntax match gaussianRouteCommand "\<M11\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "M11L"
+syntax match gaussianRouteCommand "\<M11L\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MINDO3"
+syntax match gaussianRouteCommand "\<MINDO3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MN12L"
+syntax match gaussianRouteCommand "\<MN12L\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MN12SX"
+syntax match gaussianRouteCommand "\<MN12SX\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MN15"
+syntax match gaussianRouteCommand "\<MN15\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MN15L"
+syntax match gaussianRouteCommand "\<MN15L\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MNDO"
+syntax match gaussianRouteCommand "\<MNDO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "MP2"
+syntax match gaussianRouteCommand "\<MP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4224,7 +4224,7 @@ syntax match gaussianRouteCommandArg58
 
 syntax region gaussianRouteCommandRegion58
     \ matchgroup=gaussianRouteCommand
-    \ start="MP2("
+    \ start="MP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg58
@@ -4234,7 +4234,7 @@ syntax region gaussianRouteCommandRegion58
 highlight link gaussianRouteCommandArg58 Identifier
 
 
-syntax match gaussianRouteCommand "MP3"
+syntax match gaussianRouteCommand "\<MP3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4266,7 +4266,7 @@ syntax match gaussianRouteCommandArg59
 
 syntax region gaussianRouteCommandRegion59
     \ matchgroup=gaussianRouteCommand
-    \ start="MP3("
+    \ start="MP3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg59
@@ -4276,7 +4276,7 @@ syntax region gaussianRouteCommandRegion59
 highlight link gaussianRouteCommandArg59 Identifier
 
 
-syntax match gaussianRouteCommand "MP4"
+syntax match gaussianRouteCommand "\<MP4\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4316,7 +4316,7 @@ syntax match gaussianRouteCommandArg60
 
 syntax region gaussianRouteCommandRegion60
     \ matchgroup=gaussianRouteCommand
-    \ start="MP4("
+    \ start="MP4=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg60
@@ -4326,7 +4326,7 @@ syntax region gaussianRouteCommandRegion60
 highlight link gaussianRouteCommandArg60 Identifier
 
 
-syntax match gaussianRouteCommand "MP5"
+syntax match gaussianRouteCommand "\<MP5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4358,7 +4358,7 @@ syntax match gaussianRouteCommandArg61
 
 syntax region gaussianRouteCommandRegion61
     \ matchgroup=gaussianRouteCommand
-    \ start="MP5("
+    \ start="MP5=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg61
@@ -4368,22 +4368,22 @@ syntax region gaussianRouteCommandRegion61
 highlight link gaussianRouteCommandArg61 Identifier
 
 
-syntax match gaussianRouteCommand "MaxDisk"
+syntax match gaussianRouteCommand "\<MaxDisk\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "N12"
+syntax match gaussianRouteCommand "\<N12\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "N12SX"
+syntax match gaussianRouteCommand "\<N12SX\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "NMR"
+syntax match gaussianRouteCommand "\<NMR\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4439,7 +4439,7 @@ syntax match gaussianRouteCommandArg62
 
 syntax region gaussianRouteCommandRegion62
     \ matchgroup=gaussianRouteCommand
-    \ start="NMR("
+    \ start="NMR=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg62
@@ -4449,62 +4449,62 @@ syntax region gaussianRouteCommandRegion62
 highlight link gaussianRouteCommandArg62 Identifier
 
 
-syntax match gaussianRouteCommand "Name"
+syntax match gaussianRouteCommand "\<Name\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "NoDenFit"
+syntax match gaussianRouteCommand "\<NoDenFit\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "NoDensity"
+syntax match gaussianRouteCommand "\<NoDensity\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "NoDensityFit"
+syntax match gaussianRouteCommand "\<NoDensityFit\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "O3LYP"
+syntax match gaussianRouteCommand "\<O3LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OB95"
+syntax match gaussianRouteCommand "\<OB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OBRC"
+syntax match gaussianRouteCommand "\<OBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OHSE1PBE"
+syntax match gaussianRouteCommand "\<OHSE1PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OHSE2PBE"
+syntax match gaussianRouteCommand "\<OHSE2PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OKCIS"
+syntax match gaussianRouteCommand "\<OKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OLYP"
+syntax match gaussianRouteCommand "\<OLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ONIOM"
+syntax match gaussianRouteCommand "\<ONIOM\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4548,7 +4548,7 @@ syntax match gaussianRouteCommandArg63
 
 syntax region gaussianRouteCommandRegion63
     \ matchgroup=gaussianRouteCommand
-    \ start="ONIOM("
+    \ start="ONIOM=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg63
@@ -4558,62 +4558,62 @@ syntax region gaussianRouteCommandRegion63
 highlight link gaussianRouteCommandArg63 Identifier
 
 
-syntax match gaussianRouteCommand "OP86"
+syntax match gaussianRouteCommand "\<OP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OPBE"
+syntax match gaussianRouteCommand "\<OPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OPKZB"
+syntax match gaussianRouteCommand "\<OPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OPL"
+syntax match gaussianRouteCommand "\<OPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OPW91"
+syntax match gaussianRouteCommand "\<OPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ORevTPSS"
+syntax match gaussianRouteCommand "\<ORevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OTPSS"
+syntax match gaussianRouteCommand "\<OTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OV5LYP"
+syntax match gaussianRouteCommand "\<OV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OVP86"
+syntax match gaussianRouteCommand "\<OVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OVWN"
+syntax match gaussianRouteCommand "\<OVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "OVWN5"
+syntax match gaussianRouteCommand "\<OVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Opt"
+syntax match gaussianRouteCommand "\<Opt\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -4853,7 +4853,7 @@ syntax match gaussianRouteCommandArg64
 
 syntax region gaussianRouteCommandRegion64
     \ matchgroup=gaussianRouteCommand
-    \ start="Opt("
+    \ start="Opt=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg64
@@ -4863,7 +4863,7 @@ syntax region gaussianRouteCommandRegion64
 highlight link gaussianRouteCommandArg64 Identifier
 
 
-syntax match gaussianRouteCommand "Optimization"
+syntax match gaussianRouteCommand "\<Optimization\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5103,7 +5103,7 @@ syntax match gaussianRouteCommandArg65
 
 syntax region gaussianRouteCommandRegion65
     \ matchgroup=gaussianRouteCommand
-    \ start="Optimization("
+    \ start="Optimization=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg65
@@ -5113,7 +5113,7 @@ syntax region gaussianRouteCommandRegion65
 highlight link gaussianRouteCommandArg65 Identifier
 
 
-syntax match gaussianRouteCommand "Output"
+syntax match gaussianRouteCommand "\<Output\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5177,7 +5177,7 @@ syntax match gaussianRouteCommandArg66
 
 syntax region gaussianRouteCommandRegion66
     \ matchgroup=gaussianRouteCommand
-    \ start="Output("
+    \ start="Output=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg66
@@ -5187,7 +5187,7 @@ syntax region gaussianRouteCommandRegion66
 highlight link gaussianRouteCommandArg66 Identifier
 
 
-syntax match gaussianRouteCommand "PBC"
+syntax match gaussianRouteCommand "\<PBC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5223,7 +5223,7 @@ syntax match gaussianRouteCommandArg67
 
 syntax region gaussianRouteCommandRegion67
     \ matchgroup=gaussianRouteCommand
-    \ start="PBC("
+    \ start="PBC=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg67
@@ -5233,242 +5233,242 @@ syntax region gaussianRouteCommandRegion67
 highlight link gaussianRouteCommandArg67 Identifier
 
 
-syntax match gaussianRouteCommand "PBE1PBE"
+syntax match gaussianRouteCommand "\<PBE1PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEB95"
+syntax match gaussianRouteCommand "\<PBEB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEBRC"
+syntax match gaussianRouteCommand "\<PBEBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEKCIS"
+syntax match gaussianRouteCommand "\<PBEKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBELYP"
+syntax match gaussianRouteCommand "\<PBELYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEP86"
+syntax match gaussianRouteCommand "\<PBEP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEPBE"
+syntax match gaussianRouteCommand "\<PBEPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEPKZB"
+syntax match gaussianRouteCommand "\<PBEPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEPL"
+syntax match gaussianRouteCommand "\<PBEPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEPW91"
+syntax match gaussianRouteCommand "\<PBEPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBERevTPSS"
+syntax match gaussianRouteCommand "\<PBERevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBETPSS"
+syntax match gaussianRouteCommand "\<PBETPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEV5LYP"
+syntax match gaussianRouteCommand "\<PBEV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEVP86"
+syntax match gaussianRouteCommand "\<PBEVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEVWN"
+syntax match gaussianRouteCommand "\<PBEVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEVWN5"
+syntax match gaussianRouteCommand "\<PBEVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEh1PBE"
+syntax match gaussianRouteCommand "\<PBEh1PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhB95"
+syntax match gaussianRouteCommand "\<PBEhB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhBRC"
+syntax match gaussianRouteCommand "\<PBEhBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhKCIS"
+syntax match gaussianRouteCommand "\<PBEhKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhLYP"
+syntax match gaussianRouteCommand "\<PBEhLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhP86"
+syntax match gaussianRouteCommand "\<PBEhP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhPBE"
+syntax match gaussianRouteCommand "\<PBEhPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhPKZB"
+syntax match gaussianRouteCommand "\<PBEhPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhPL"
+syntax match gaussianRouteCommand "\<PBEhPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhPW91"
+syntax match gaussianRouteCommand "\<PBEhPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhRevTPSS"
+syntax match gaussianRouteCommand "\<PBEhRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhTPSS"
+syntax match gaussianRouteCommand "\<PBEhTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhV5LYP"
+syntax match gaussianRouteCommand "\<PBEhV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhVP86"
+syntax match gaussianRouteCommand "\<PBEhVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhVWN"
+syntax match gaussianRouteCommand "\<PBEhVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PBEhVWN5"
+syntax match gaussianRouteCommand "\<PBEhVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBB95"
+syntax match gaussianRouteCommand "\<PKZBB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBBRC"
+syntax match gaussianRouteCommand "\<PKZBBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBKCIS"
+syntax match gaussianRouteCommand "\<PKZBKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBLYP"
+syntax match gaussianRouteCommand "\<PKZBLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBP86"
+syntax match gaussianRouteCommand "\<PKZBP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBPBE"
+syntax match gaussianRouteCommand "\<PKZBPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBPKZB"
+syntax match gaussianRouteCommand "\<PKZBPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBPL"
+syntax match gaussianRouteCommand "\<PKZBPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBPW91"
+syntax match gaussianRouteCommand "\<PKZBPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBRevTPSS"
+syntax match gaussianRouteCommand "\<PKZBRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBTPSS"
+syntax match gaussianRouteCommand "\<PKZBTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBV5LYP"
+syntax match gaussianRouteCommand "\<PKZBV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBVP86"
+syntax match gaussianRouteCommand "\<PKZBVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBVWN"
+syntax match gaussianRouteCommand "\<PKZBVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PKZBVWN5"
+syntax match gaussianRouteCommand "\<PKZBVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PM3"
+syntax match gaussianRouteCommand "\<PM3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5520,7 +5520,7 @@ syntax match gaussianRouteCommandArg68
 
 syntax region gaussianRouteCommandRegion68
     \ matchgroup=gaussianRouteCommand
-    \ start="PM3("
+    \ start="PM3=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg68
@@ -5530,7 +5530,7 @@ syntax region gaussianRouteCommandRegion68
 highlight link gaussianRouteCommandArg68 Identifier
 
 
-syntax match gaussianRouteCommand "PM6"
+syntax match gaussianRouteCommand "\<PM6\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5582,7 +5582,7 @@ syntax match gaussianRouteCommandArg69
 
 syntax region gaussianRouteCommandRegion69
     \ matchgroup=gaussianRouteCommand
-    \ start="PM6("
+    \ start="PM6=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg69
@@ -5592,7 +5592,7 @@ syntax region gaussianRouteCommandRegion69
 highlight link gaussianRouteCommandArg69 Identifier
 
 
-syntax match gaussianRouteCommand "PM7"
+syntax match gaussianRouteCommand "\<PM7\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5644,7 +5644,7 @@ syntax match gaussianRouteCommandArg70
 
 syntax region gaussianRouteCommandRegion70
     \ matchgroup=gaussianRouteCommand
-    \ start="PM7("
+    \ start="PM7=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg70
@@ -5654,92 +5654,92 @@ syntax region gaussianRouteCommandRegion70
 highlight link gaussianRouteCommandArg70 Identifier
 
 
-syntax match gaussianRouteCommand "PW6B95"
+syntax match gaussianRouteCommand "\<PW6B95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW6B95D3"
+syntax match gaussianRouteCommand "\<PW6B95D3\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91B95"
+syntax match gaussianRouteCommand "\<PW91B95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91BRC"
+syntax match gaussianRouteCommand "\<PW91BRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91KCIS"
+syntax match gaussianRouteCommand "\<PW91KCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91LYP"
+syntax match gaussianRouteCommand "\<PW91LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91P86"
+syntax match gaussianRouteCommand "\<PW91P86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91PBE"
+syntax match gaussianRouteCommand "\<PW91PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91PKZB"
+syntax match gaussianRouteCommand "\<PW91PKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91PL"
+syntax match gaussianRouteCommand "\<PW91PL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91PW91"
+syntax match gaussianRouteCommand "\<PW91PW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91RevTPSS"
+syntax match gaussianRouteCommand "\<PW91RevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91TPSS"
+syntax match gaussianRouteCommand "\<PW91TPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91V5LYP"
+syntax match gaussianRouteCommand "\<PW91V5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91VP86"
+syntax match gaussianRouteCommand "\<PW91VP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91VWN"
+syntax match gaussianRouteCommand "\<PW91VWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "PW91VWN5"
+syntax match gaussianRouteCommand "\<PW91VWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Polar"
+syntax match gaussianRouteCommand "\<Polar\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5803,7 +5803,7 @@ syntax match gaussianRouteCommandArg71
 
 syntax region gaussianRouteCommandRegion71
     \ matchgroup=gaussianRouteCommand
-    \ start="Polar("
+    \ start="Polar=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg71
@@ -5813,7 +5813,7 @@ syntax region gaussianRouteCommandRegion71
 highlight link gaussianRouteCommandArg71 Identifier
 
 
-syntax match gaussianRouteCommand "Pop"
+syntax match gaussianRouteCommand "\<Pop\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -5993,7 +5993,7 @@ syntax match gaussianRouteCommandArg72
 
 syntax region gaussianRouteCommandRegion72
     \ matchgroup=gaussianRouteCommand
-    \ start="Pop("
+    \ start="Pop=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg72
@@ -6003,7 +6003,7 @@ syntax region gaussianRouteCommandRegion72
 highlight link gaussianRouteCommandArg72 Identifier
 
 
-syntax match gaussianRouteCommand "Population"
+syntax match gaussianRouteCommand "\<Population\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6183,7 +6183,7 @@ syntax match gaussianRouteCommandArg73
 
 syntax region gaussianRouteCommandRegion73
     \ matchgroup=gaussianRouteCommand
-    \ start="Population("
+    \ start="Population=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg73
@@ -6193,7 +6193,7 @@ syntax region gaussianRouteCommandRegion73
 highlight link gaussianRouteCommandArg73 Identifier
 
 
-syntax match gaussianRouteCommand "Pressure"
+syntax match gaussianRouteCommand "\<Pressure\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6205,7 +6205,7 @@ syntax match gaussianRouteCommandArg74
 
 syntax region gaussianRouteCommandRegion74
     \ matchgroup=gaussianRouteCommand
-    \ start="Pressure("
+    \ start="Pressure=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg74
@@ -6215,7 +6215,7 @@ syntax region gaussianRouteCommandRegion74
 highlight link gaussianRouteCommandArg74 Identifier
 
 
-syntax match gaussianRouteCommand "Prop"
+syntax match gaussianRouteCommand "\<Prop\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6259,7 +6259,7 @@ syntax match gaussianRouteCommandArg75
 
 syntax region gaussianRouteCommandRegion75
     \ matchgroup=gaussianRouteCommand
-    \ start="Prop("
+    \ start="Prop=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg75
@@ -6269,7 +6269,7 @@ syntax region gaussianRouteCommandRegion75
 highlight link gaussianRouteCommandArg75 Identifier
 
 
-syntax match gaussianRouteCommand "Pseudo"
+syntax match gaussianRouteCommand "\<Pseudo\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6337,7 +6337,7 @@ syntax match gaussianRouteCommandArg76
 
 syntax region gaussianRouteCommandRegion76
     \ matchgroup=gaussianRouteCommand
-    \ start="Pseudo("
+    \ start="Pseudo=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg76
@@ -6347,7 +6347,7 @@ syntax region gaussianRouteCommandRegion76
 highlight link gaussianRouteCommandArg76 Identifier
 
 
-syntax match gaussianRouteCommand "Punch"
+syntax match gaussianRouteCommand "\<Punch\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6391,7 +6391,7 @@ syntax match gaussianRouteCommandArg77
 
 syntax region gaussianRouteCommandRegion77
     \ matchgroup=gaussianRouteCommand
-    \ start="Punch("
+    \ start="Punch=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg77
@@ -6401,7 +6401,7 @@ syntax region gaussianRouteCommandRegion77
 highlight link gaussianRouteCommandArg77 Identifier
 
 
-syntax match gaussianRouteCommand "QCI"
+syntax match gaussianRouteCommand "\<QCI\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6445,7 +6445,7 @@ syntax match gaussianRouteCommandArg78
 
 syntax region gaussianRouteCommandRegion78
     \ matchgroup=gaussianRouteCommand
-    \ start="QCI("
+    \ start="QCI=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg78
@@ -6455,7 +6455,7 @@ syntax region gaussianRouteCommandRegion78
 highlight link gaussianRouteCommandArg78 Identifier
 
 
-syntax match gaussianRouteCommand "QCID"
+syntax match gaussianRouteCommand "\<QCID\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6487,7 +6487,7 @@ syntax match gaussianRouteCommandArg79
 
 syntax region gaussianRouteCommandRegion79
     \ matchgroup=gaussianRouteCommand
-    \ start="QCID("
+    \ start="QCID=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg79
@@ -6497,12 +6497,12 @@ syntax region gaussianRouteCommandRegion79
 highlight link gaussianRouteCommandArg79 Identifier
 
 
-syntax match gaussianRouteCommand "RHF"
+syntax match gaussianRouteCommand "\<RHF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RMP2"
+syntax match gaussianRouteCommand "\<RMP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6534,7 +6534,7 @@ syntax match gaussianRouteCommandArg80
 
 syntax region gaussianRouteCommandRegion80
     \ matchgroup=gaussianRouteCommand
-    \ start="RMP2("
+    \ start="RMP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg80
@@ -6544,12 +6544,12 @@ syntax region gaussianRouteCommandRegion80
 highlight link gaussianRouteCommandArg80 Identifier
 
 
-syntax match gaussianRouteCommand "ROHF"
+syntax match gaussianRouteCommand "\<ROHF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ROMP2"
+syntax match gaussianRouteCommand "\<ROMP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6581,7 +6581,7 @@ syntax match gaussianRouteCommandArg81
 
 syntax region gaussianRouteCommandRegion81
     \ matchgroup=gaussianRouteCommand
-    \ start="ROMP2("
+    \ start="ROMP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg81
@@ -6591,112 +6591,112 @@ syntax region gaussianRouteCommandRegion81
 highlight link gaussianRouteCommandArg81 Identifier
 
 
-syntax match gaussianRouteCommand "RdBass"
+syntax match gaussianRouteCommand "\<RdBass\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ReadBasis"
+syntax match gaussianRouteCommand "\<ReadBasis\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Restart"
+syntax match gaussianRouteCommand "\<Restart\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSB95"
+syntax match gaussianRouteCommand "\<RevTPSSB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSBRC"
+syntax match gaussianRouteCommand "\<RevTPSSBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSKCIS"
+syntax match gaussianRouteCommand "\<RevTPSSKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSLYP"
+syntax match gaussianRouteCommand "\<RevTPSSLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSP86"
+syntax match gaussianRouteCommand "\<RevTPSSP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSPBE"
+syntax match gaussianRouteCommand "\<RevTPSSPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSPKZB"
+syntax match gaussianRouteCommand "\<RevTPSSPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSPL"
+syntax match gaussianRouteCommand "\<RevTPSSPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSPW91"
+syntax match gaussianRouteCommand "\<RevTPSSPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSRevTPSS"
+syntax match gaussianRouteCommand "\<RevTPSSRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSTPSS"
+syntax match gaussianRouteCommand "\<RevTPSSTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSV5LYP"
+syntax match gaussianRouteCommand "\<RevTPSSV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSVP86"
+syntax match gaussianRouteCommand "\<RevTPSSVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSVWN"
+syntax match gaussianRouteCommand "\<RevTPSSVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "RevTPSSVWN5"
+syntax match gaussianRouteCommand "\<RevTPSSVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "S"
+syntax match gaussianRouteCommand "\<S\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SB95"
+syntax match gaussianRouteCommand "\<SB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SBRC"
+syntax match gaussianRouteCommand "\<SBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SCF"
+syntax match gaussianRouteCommand "\<SCF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -6868,7 +6868,7 @@ syntax match gaussianRouteCommandArg82
 
 syntax region gaussianRouteCommandRegion82
     \ matchgroup=gaussianRouteCommand
-    \ start="SCF("
+    \ start="SCF=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg82
@@ -6878,7 +6878,7 @@ syntax region gaussianRouteCommandRegion82
 highlight link gaussianRouteCommandArg82 Identifier
 
 
-syntax match gaussianRouteCommand "SCRF"
+syntax match gaussianRouteCommand "\<SCRF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7014,7 +7014,7 @@ syntax match gaussianRouteCommandArg83
 
 syntax region gaussianRouteCommandRegion83
     \ matchgroup=gaussianRouteCommand
-    \ start="SCRF("
+    \ start="SCRF=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg83
@@ -7024,87 +7024,87 @@ syntax region gaussianRouteCommandRegion83
 highlight link gaussianRouteCommandArg83 Identifier
 
 
-syntax match gaussianRouteCommand "SKCIS"
+syntax match gaussianRouteCommand "\<SKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SLYP"
+syntax match gaussianRouteCommand "\<SLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SOGGA11"
+syntax match gaussianRouteCommand "\<SOGGA11\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SOGGA11X"
+syntax match gaussianRouteCommand "\<SOGGA11X\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SP"
+syntax match gaussianRouteCommand "\<SP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SP86"
+syntax match gaussianRouteCommand "\<SP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SPBE"
+syntax match gaussianRouteCommand "\<SPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SPKZB"
+syntax match gaussianRouteCommand "\<SPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SPL"
+syntax match gaussianRouteCommand "\<SPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SPW91"
+syntax match gaussianRouteCommand "\<SPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SRevTPSS"
+syntax match gaussianRouteCommand "\<SRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "STPSS"
+syntax match gaussianRouteCommand "\<STPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SV5LYP"
+syntax match gaussianRouteCommand "\<SV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SVP86"
+syntax match gaussianRouteCommand "\<SVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SVWN"
+syntax match gaussianRouteCommand "\<SVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "SVWN5"
+syntax match gaussianRouteCommand "\<SVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Scale"
+syntax match gaussianRouteCommand "\<Scale\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7116,7 +7116,7 @@ syntax match gaussianRouteCommandArg84
 
 syntax region gaussianRouteCommandRegion84
     \ matchgroup=gaussianRouteCommand
-    \ start="Scale("
+    \ start="Scale=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg84
@@ -7126,7 +7126,7 @@ syntax region gaussianRouteCommandRegion84
 highlight link gaussianRouteCommandArg84 Identifier
 
 
-syntax match gaussianRouteCommand "Scan"
+syntax match gaussianRouteCommand "\<Scan\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7138,7 +7138,7 @@ syntax match gaussianRouteCommandArg85
 
 syntax region gaussianRouteCommandRegion85
     \ matchgroup=gaussianRouteCommand
-    \ start="Scan("
+    \ start="Scan=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg85
@@ -7148,7 +7148,7 @@ syntax region gaussianRouteCommandRegion85
 highlight link gaussianRouteCommandArg85 Identifier
 
 
-syntax match gaussianRouteCommand "Sparse"
+syntax match gaussianRouteCommand "\<Sparse\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7176,7 +7176,7 @@ syntax match gaussianRouteCommandArg86
 
 syntax region gaussianRouteCommandRegion86
     \ matchgroup=gaussianRouteCommand
-    \ start="Sparse("
+    \ start="Sparse=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg86
@@ -7186,7 +7186,7 @@ syntax region gaussianRouteCommandRegion86
 highlight link gaussianRouteCommandArg86 Identifier
 
 
-syntax match gaussianRouteCommand "Stable"
+syntax match gaussianRouteCommand "\<Stable\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7258,7 +7258,7 @@ syntax match gaussianRouteCommandArg87
 
 syntax region gaussianRouteCommandRegion87
     \ matchgroup=gaussianRouteCommand
-    \ start="Stable("
+    \ start="Stable=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg87
@@ -7268,7 +7268,7 @@ syntax region gaussianRouteCommandRegion87
 highlight link gaussianRouteCommandArg87 Identifier
 
 
-syntax match gaussianRouteCommand "Symmetry"
+syntax match gaussianRouteCommand "\<Symmetry\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7328,7 +7328,7 @@ syntax match gaussianRouteCommandArg88
 
 syntax region gaussianRouteCommandRegion88
     \ matchgroup=gaussianRouteCommand
-    \ start="Symmetry("
+    \ start="Symmetry=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg88
@@ -7338,7 +7338,7 @@ syntax region gaussianRouteCommandRegion88
 highlight link gaussianRouteCommandArg88 Identifier
 
 
-syntax match gaussianRouteCommand "TD"
+syntax match gaussianRouteCommand "\<TD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7422,7 +7422,7 @@ syntax match gaussianRouteCommandArg89
 
 syntax region gaussianRouteCommandRegion89
     \ matchgroup=gaussianRouteCommand
-    \ start="TD("
+    \ start="TD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg89
@@ -7432,87 +7432,87 @@ syntax region gaussianRouteCommandRegion89
 highlight link gaussianRouteCommandArg89 Identifier
 
 
-syntax match gaussianRouteCommand "TPSSB95"
+syntax match gaussianRouteCommand "\<TPSSB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSBRC"
+syntax match gaussianRouteCommand "\<TPSSBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSKCIS"
+syntax match gaussianRouteCommand "\<TPSSKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSLYP"
+syntax match gaussianRouteCommand "\<TPSSLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSP86"
+syntax match gaussianRouteCommand "\<TPSSP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSPBE"
+syntax match gaussianRouteCommand "\<TPSSPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSPKZB"
+syntax match gaussianRouteCommand "\<TPSSPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSPL"
+syntax match gaussianRouteCommand "\<TPSSPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSPW91"
+syntax match gaussianRouteCommand "\<TPSSPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSRevTPSS"
+syntax match gaussianRouteCommand "\<TPSSRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSTPSS"
+syntax match gaussianRouteCommand "\<TPSSTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSV5LYP"
+syntax match gaussianRouteCommand "\<TPSSV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSVP86"
+syntax match gaussianRouteCommand "\<TPSSVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSVWN"
+syntax match gaussianRouteCommand "\<TPSSVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSVWN5"
+syntax match gaussianRouteCommand "\<TPSSVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TPSSh"
+syntax match gaussianRouteCommand "\<TPSSh\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Temperature"
+syntax match gaussianRouteCommand "\<Temperature\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7524,7 +7524,7 @@ syntax match gaussianRouteCommandArg90
 
 syntax region gaussianRouteCommandRegion90
     \ matchgroup=gaussianRouteCommand
-    \ start="Temperature("
+    \ start="Temperature=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg90
@@ -7534,22 +7534,22 @@ syntax region gaussianRouteCommandRegion90
 highlight link gaussianRouteCommandArg90 Identifier
 
 
-syntax match gaussianRouteCommand "Test"
+syntax match gaussianRouteCommand "\<Test\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TestMO"
+syntax match gaussianRouteCommand "\<TestMO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "TrackIO"
+syntax match gaussianRouteCommand "\<TrackIO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Transformation"
+syntax match gaussianRouteCommand "\<Transformation\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7601,7 +7601,7 @@ syntax match gaussianRouteCommandArg91
 
 syntax region gaussianRouteCommandRegion91
     \ matchgroup=gaussianRouteCommand
-    \ start="Transformation("
+    \ start="Transformation=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg91
@@ -7611,7 +7611,7 @@ syntax region gaussianRouteCommandRegion91
 highlight link gaussianRouteCommandArg91 Identifier
 
 
-syntax match gaussianRouteCommand "UFF"
+syntax match gaussianRouteCommand "\<UFF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7683,7 +7683,7 @@ syntax match gaussianRouteCommandArg92
 
 syntax region gaussianRouteCommandRegion92
     \ matchgroup=gaussianRouteCommand
-    \ start="UFF("
+    \ start="UFF=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg92
@@ -7693,12 +7693,12 @@ syntax region gaussianRouteCommandRegion92
 highlight link gaussianRouteCommandArg92 Identifier
 
 
-syntax match gaussianRouteCommand "UHF"
+syntax match gaussianRouteCommand "\<UHF\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "UMP2"
+syntax match gaussianRouteCommand "\<UMP2\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7730,7 +7730,7 @@ syntax match gaussianRouteCommandArg93
 
 syntax region gaussianRouteCommandRegion93
     \ matchgroup=gaussianRouteCommand
-    \ start="UMP2("
+    \ start="UMP2=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg93
@@ -7740,7 +7740,7 @@ syntax region gaussianRouteCommandRegion93
 highlight link gaussianRouteCommandArg93 Identifier
 
 
-syntax match gaussianRouteCommand "Units"
+syntax match gaussianRouteCommand "\<Units\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7764,7 +7764,7 @@ syntax match gaussianRouteCommandArg94
 
 syntax region gaussianRouteCommandRegion94
     \ matchgroup=gaussianRouteCommand
-    \ start="Units("
+    \ start="Units=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg94
@@ -7774,12 +7774,12 @@ syntax region gaussianRouteCommandRegion94
 highlight link gaussianRouteCommandArg94 Identifier
 
 
-syntax match gaussianRouteCommand "VSXC"
+syntax match gaussianRouteCommand "\<VSXC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "Volume"
+syntax match gaussianRouteCommand "\<Volume\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7791,7 +7791,7 @@ syntax match gaussianRouteCommandArg95
 
 syntax region gaussianRouteCommandRegion95
     \ matchgroup=gaussianRouteCommand
-    \ start="Volume("
+    \ start="Volume=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg95
@@ -7801,7 +7801,7 @@ syntax region gaussianRouteCommandRegion95
 highlight link gaussianRouteCommandArg95 Identifier
 
 
-syntax match gaussianRouteCommand "W1BD"
+syntax match gaussianRouteCommand "\<W1BD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7833,7 +7833,7 @@ syntax match gaussianRouteCommandArg96
 
 syntax region gaussianRouteCommandRegion96
     \ matchgroup=gaussianRouteCommand
-    \ start="W1BD("
+    \ start="W1BD=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg96
@@ -7843,7 +7843,7 @@ syntax region gaussianRouteCommandRegion96
 highlight link gaussianRouteCommandArg96 Identifier
 
 
-syntax match gaussianRouteCommand "W1RO"
+syntax match gaussianRouteCommand "\<W1RO\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7875,7 +7875,7 @@ syntax match gaussianRouteCommandArg97
 
 syntax region gaussianRouteCommandRegion97
     \ matchgroup=gaussianRouteCommand
-    \ start="W1RO("
+    \ start="W1RO=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg97
@@ -7885,7 +7885,7 @@ syntax region gaussianRouteCommandRegion97
 highlight link gaussianRouteCommandArg97 Identifier
 
 
-syntax match gaussianRouteCommand "W1U"
+syntax match gaussianRouteCommand "\<W1U\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7917,7 +7917,7 @@ syntax match gaussianRouteCommandArg98
 
 syntax region gaussianRouteCommandRegion98
     \ matchgroup=gaussianRouteCommand
-    \ start="W1U("
+    \ start="W1U=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg98
@@ -7927,7 +7927,7 @@ syntax region gaussianRouteCommandRegion98
 highlight link gaussianRouteCommandArg98 Identifier
 
 
-syntax match gaussianRouteCommand "Window"
+syntax match gaussianRouteCommand "\<Window\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -7979,7 +7979,7 @@ syntax match gaussianRouteCommandArg99
 
 syntax region gaussianRouteCommandRegion99
     \ matchgroup=gaussianRouteCommand
-    \ start="Window("
+    \ start="Window=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg99
@@ -7989,162 +7989,162 @@ syntax region gaussianRouteCommandRegion99
 highlight link gaussianRouteCommandArg99 Identifier
 
 
-syntax match gaussianRouteCommand "X3LYP"
+syntax match gaussianRouteCommand "\<X3LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAB95"
+syntax match gaussianRouteCommand "\<XAB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XABRC"
+syntax match gaussianRouteCommand "\<XABRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAKCIS"
+syntax match gaussianRouteCommand "\<XAKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XALYP"
+syntax match gaussianRouteCommand "\<XALYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAP86"
+syntax match gaussianRouteCommand "\<XAP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAPBE"
+syntax match gaussianRouteCommand "\<XAPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAPKZB"
+syntax match gaussianRouteCommand "\<XAPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAPL"
+syntax match gaussianRouteCommand "\<XAPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAPW91"
+syntax match gaussianRouteCommand "\<XAPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XARevTPSS"
+syntax match gaussianRouteCommand "\<XARevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XATPSS"
+syntax match gaussianRouteCommand "\<XATPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAV5LYP"
+syntax match gaussianRouteCommand "\<XAV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAVP86"
+syntax match gaussianRouteCommand "\<XAVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAVWN"
+syntax match gaussianRouteCommand "\<XAVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAVWN5"
+syntax match gaussianRouteCommand "\<XAVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaB95"
+syntax match gaussianRouteCommand "\<XAlphaB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaBRC"
+syntax match gaussianRouteCommand "\<XAlphaBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaKCIS"
+syntax match gaussianRouteCommand "\<XAlphaKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaLYP"
+syntax match gaussianRouteCommand "\<XAlphaLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaP86"
+syntax match gaussianRouteCommand "\<XAlphaP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaPBE"
+syntax match gaussianRouteCommand "\<XAlphaPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaPKZB"
+syntax match gaussianRouteCommand "\<XAlphaPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaPL"
+syntax match gaussianRouteCommand "\<XAlphaPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaPW91"
+syntax match gaussianRouteCommand "\<XAlphaPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaRevTPSS"
+syntax match gaussianRouteCommand "\<XAlphaRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaTPSS"
+syntax match gaussianRouteCommand "\<XAlphaTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaV5LYP"
+syntax match gaussianRouteCommand "\<XAlphaV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaVP86"
+syntax match gaussianRouteCommand "\<XAlphaVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaVWN"
+syntax match gaussianRouteCommand "\<XAlphaVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "XAlphaVWN5"
+syntax match gaussianRouteCommand "\<XAlphaVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "ZIndo"
+syntax match gaussianRouteCommand "\<ZIndo\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
@@ -8180,7 +8180,7 @@ syntax match gaussianRouteCommandArg100
 
 syntax region gaussianRouteCommandRegion100
     \ matchgroup=gaussianRouteCommand
-    \ start="ZIndo("
+    \ start="ZIndo=\?("
     \ end=")"
     \ transparent
     \ contains=gaussianRouteCommandArg100
@@ -8190,197 +8190,197 @@ syntax region gaussianRouteCommandRegion100
 highlight link gaussianRouteCommandArg100 Identifier
 
 
-syntax match gaussianRouteCommand "mPW1LYP"
+syntax match gaussianRouteCommand "\<mPW1LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPW1PBE"
+syntax match gaussianRouteCommand "\<mPW1PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPW1PW91"
+syntax match gaussianRouteCommand "\<mPW1PW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPW3PBE"
+syntax match gaussianRouteCommand "\<mPW3PBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWB95"
+syntax match gaussianRouteCommand "\<mPWB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWBRC"
+syntax match gaussianRouteCommand "\<mPWBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWKCIS"
+syntax match gaussianRouteCommand "\<mPWKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWLYP"
+syntax match gaussianRouteCommand "\<mPWLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWP86"
+syntax match gaussianRouteCommand "\<mPWP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWPBE"
+syntax match gaussianRouteCommand "\<mPWPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWPKZB"
+syntax match gaussianRouteCommand "\<mPWPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWPL"
+syntax match gaussianRouteCommand "\<mPWPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWPW91"
+syntax match gaussianRouteCommand "\<mPWPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWRevTPSS"
+syntax match gaussianRouteCommand "\<mPWRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWTPSS"
+syntax match gaussianRouteCommand "\<mPWTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWV5LYP"
+syntax match gaussianRouteCommand "\<mPWV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWVP86"
+syntax match gaussianRouteCommand "\<mPWVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWVWN"
+syntax match gaussianRouteCommand "\<mPWVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "mPWVWN5"
+syntax match gaussianRouteCommand "\<mPWVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "tHCTH"
+syntax match gaussianRouteCommand "\<tHCTH\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "tHCTHhyb"
+syntax match gaussianRouteCommand "\<tHCTHhyb\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wB97"
+syntax match gaussianRouteCommand "\<wB97\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wB97X"
+syntax match gaussianRouteCommand "\<wB97X\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wB97XD"
+syntax match gaussianRouteCommand "\<wB97XD\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhB95"
+syntax match gaussianRouteCommand "\<wPBEhB95\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhBRC"
+syntax match gaussianRouteCommand "\<wPBEhBRC\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhKCIS"
+syntax match gaussianRouteCommand "\<wPBEhKCIS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhLYP"
+syntax match gaussianRouteCommand "\<wPBEhLYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhP86"
+syntax match gaussianRouteCommand "\<wPBEhP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhPBE"
+syntax match gaussianRouteCommand "\<wPBEhPBE\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhPKZB"
+syntax match gaussianRouteCommand "\<wPBEhPKZB\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhPL"
+syntax match gaussianRouteCommand "\<wPBEhPL\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhPW91"
+syntax match gaussianRouteCommand "\<wPBEhPW91\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhRevTPSS"
+syntax match gaussianRouteCommand "\<wPBEhRevTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhTPSS"
+syntax match gaussianRouteCommand "\<wPBEhTPSS\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhV5LYP"
+syntax match gaussianRouteCommand "\<wPBEhV5LYP\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhVP86"
+syntax match gaussianRouteCommand "\<wPBEhVP86\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhVWN"
+syntax match gaussianRouteCommand "\<wPBEhVWN\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
 
-syntax match gaussianRouteCommand "wPBEhVWN5"
+syntax match gaussianRouteCommand "\<wPBEhVWN5\>"
     \ containedin=gaussianRouteRegion
     \ contained
 

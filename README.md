@@ -7,7 +7,7 @@ vim highlighters for quantum chemistry packages.
 
 Usage
 ----
-For \*nix users, copy the corresponding file to $HOME/.vim/ftplugins and $HOME/.vim/syntax, and and it should work. If you are using Vundle, then add this line to your .vimrc:
+For \*nix users, copy the corresponding file to $HOME/.vim/ftdetect and $HOME/.vim/syntax, and it should work. If you are using Vundle, then add this line to your .vimrc:
 
     Plugin 'xis19/qcvim'
 

@@ -1,12 +1,12 @@
-! CH3CH2COOH Optimization, IR spectrum, and energy
+! CH3CH2CHO Optimization, IR spectrum, and energy
 
 %nprocshared=2
 %chk=test.chk
 %mem=2gb
 
-# B3LYP SVP Optimization(VeryTight) Freq(NoRaman)
+# B3LYP SVP Opt(VeryTight) Freq(NoRaman) SCF=(MaxCycle=20) INT(UltraFine)
 
-nPrOH
+EtCHO B3LYP Optimization
 
 0 1
  C                 -6.06732671    0.79913632    0.04083327
@@ -38,7 +38,7 @@ nPrOH
 
 # MP2 TZVP SCF(Tight) Geom(Checkpoint) Guess(Read)
 
-nPrOH Energy
+EtCHO MP2 TZVP energy
 
 0 1
 
