@@ -491,7 +491,7 @@ def main() -> int:
         )
 
         # Gaussian website is NOT happy for crawlers.
-        time.sleep(1)
+        time.sleep(5)
 
     with open('gaussian_keywords.json', 'w') as stream:
         stream.write(json.dumps(keyword_option_tree, indent=2))

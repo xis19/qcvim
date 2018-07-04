@@ -6,6 +6,8 @@ import jinja2
 import json
 import sys
 
+GAUSSIAN_KEYWORDS = 'gaussian_keywords.json'
+
 VIM_SYNTAX_TEMPLATE = """\
 " Gaussian VIM highlight file
 " Language:         Gaussian
@@ -108,7 +110,7 @@ def _sort_keyword(str1: str, str2: str) -> int:
 
 
 def main() -> int:
-    with open('gaussian_keywords.json', 'r') as stream:
+    with open(GAUSSIAN_KEYWORDS, 'r') as stream:
         keywords = json.load(stream)
 
     link0_commands = keywords[LINK_0_COMMANDS_STR]
