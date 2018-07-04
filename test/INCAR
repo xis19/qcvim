@@ -1,0 +1,28 @@
+ SYSTEM =  AgInS2 quantum dot
+
+!!electronic steps
+ ISMEAR = -5 !
+ SIGMA = 0.05
+ NELMIN = 6     !  do a minimum of eight  electronic steps
+ EDIFF  = 1E-4  !  high accuracy for electronic groundstate
+ MAXMIX = 80    !  keep dielectric function between ionic movements
+ ENCUT =  650.00
+
+!! Single Point
+! ADDGRID = .TRUE.
+ IBRION =  -1    !  use RMM-DIIS algorithm for ions, since it is a difficult relaxation
+ NSW = 0         ! max no. of steps
+ EDIFFG = -0.02  !  small tolerance for ions
+ ISIF = 0        ! calc forces, calc stress tensor, relax ions, cell shape, cell vol..
+ POTIM = 0.3     ! step size
+
+!! the charge densities print control
+ LCHARG = .FALSE.
+ LWAVE = .FALSE.
+
+ LSCALU = .FALSE.
+ NSIM   = 4
+ LPLANE = .TRUE.
+ NPAR   = 4
+ IALGO = 48
+
