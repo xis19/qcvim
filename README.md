@@ -25,3 +25,6 @@ Examples
 
 ## Gaussian
 ![alt text](https://raw.githubusercontent.com/xis19/qcvim/master/readme/gaussian.png)
+
+## VASP
+![alt text](https://raw.githubusercontent.com/xis19/qcvim/master/readme/vasp_incar.png)
