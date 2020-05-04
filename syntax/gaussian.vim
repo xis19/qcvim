@@ -1,7 +1,7 @@
 " Gaussian VIM highlight file
 " Language:         Gaussian
 " Maintainer:       Xiaoge Su (magichp@gmail.com)
-" Last Revision:    Sat Jul 22 00:05:47 PDT 2017
+" Last Revision:    2020/05/03 14:56:47
 " Version:          0.1
 
 if version < 600
@@ -2038,7 +2038,7 @@ syntax match gaussianRouteCommandArg32
     \ containedin=gaussianRouteCommandRegion32
     \ contained
 syntax match gaussianRouteCommandArg32
-    \ "D2"
+    \ "ED2"
     \ containedin=gaussianRouteCommandRegion32
     \ contained
 syntax match gaussianRouteCommandArg32
@@ -2110,6 +2110,10 @@ syntax match gaussianRouteCommandArg34
     \ containedin=gaussianRouteCommandRegion34
     \ contained
 syntax match gaussianRouteCommandArg34
+    \ "Raw"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
     \ "InputFchk"
     \ containedin=gaussianRouteCommandRegion34
     \ contained
@@ -2123,6 +2127,46 @@ syntax match gaussianRouteCommandArg34
     \ contained
 syntax match gaussianRouteCommandArg34
     \ "ReadInputSection"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "PostSCF"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "PostPop"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "MO2ElIntegrals"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "ActiveAtoms"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "AllAtoms"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "NoDelete"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "Guess"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "AO2ElDerivatives"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "AO2PDM"
+    \ containedin=gaussianRouteCommandRegion34
+    \ contained
+syntax match gaussianRouteCommandArg34
+    \ "Files"
     \ containedin=gaussianRouteCommandRegion34
     \ contained
 
@@ -2179,11 +2223,11 @@ syntax match gaussianRouteCommandArg35
     \ containedin=gaussianRouteCommandRegion35
     \ contained
 syntax match gaussianRouteCommandArg35
-    \ "NoChK"
+    \ "EChk"
     \ containedin=gaussianRouteCommandRegion35
     \ contained
 syntax match gaussianRouteCommandArg35
-    \ "EChk"
+    \ "NoChk"
     \ containedin=gaussianRouteCommandRegion35
     \ contained
 
@@ -2992,11 +3036,19 @@ syntax match gaussianRouteCommandArg51
     \ containedin=gaussianRouteCommandRegion51
     \ contained
 syntax match gaussianRouteCommandArg51
+    \ "UseStandardOrientation"
+    \ containedin=gaussianRouteCommandRegion51
+    \ contained
+syntax match gaussianRouteCommandArg51
     \ "Connectivity"
     \ containedin=gaussianRouteCommandRegion51
     \ contained
 syntax match gaussianRouteCommandArg51
     \ "ModConnectivity"
+    \ containedin=gaussianRouteCommandRegion51
+    \ contained
+syntax match gaussianRouteCommandArg51
+    \ "GenConnectivity"
     \ containedin=gaussianRouteCommandRegion51
     \ contained
 syntax match gaussianRouteCommandArg51
@@ -3191,6 +3243,10 @@ syntax match gaussianRouteCommandArg52
     \ contained
 syntax match gaussianRouteCommandArg52
     \ "Read"
+    \ containedin=gaussianRouteCommandRegion52
+    \ contained
+syntax match gaussianRouteCommandArg52
+    \ "TCheck"
     \ containedin=gaussianRouteCommandRegion52
     \ contained
 syntax match gaussianRouteCommandArg52
@@ -4678,7 +4734,15 @@ syntax match gaussianRouteCommandArg64
     \ containedin=gaussianRouteCommandRegion64
     \ contained
 syntax match gaussianRouteCommandArg64
+    \ "NGoUp="
+    \ containedin=gaussianRouteCommandRegion64
+    \ contained
+syntax match gaussianRouteCommandArg64
     \ "NGoDown="
+    \ containedin=gaussianRouteCommandRegion64
+    \ contained
+syntax match gaussianRouteCommandArg64
+    \ "MaxEStep="
     \ containedin=gaussianRouteCommandRegion64
     \ contained
 syntax match gaussianRouteCommandArg64
@@ -4928,7 +4992,15 @@ syntax match gaussianRouteCommandArg65
     \ containedin=gaussianRouteCommandRegion65
     \ contained
 syntax match gaussianRouteCommandArg65
+    \ "NGoUp="
+    \ containedin=gaussianRouteCommandRegion65
+    \ contained
+syntax match gaussianRouteCommandArg65
     \ "NGoDown="
+    \ containedin=gaussianRouteCommandRegion65
+    \ contained
+syntax match gaussianRouteCommandArg65
+    \ "MaxEStep="
     \ containedin=gaussianRouteCommandRegion65
     \ contained
 syntax match gaussianRouteCommandArg65
@@ -5162,6 +5234,10 @@ syntax match gaussianRouteCommandArg66
     \ containedin=gaussianRouteCommandRegion66
     \ contained
 syntax match gaussianRouteCommandArg66
+    \ "I8Labels"
+    \ containedin=gaussianRouteCommandRegion66
+    \ contained
+syntax match gaussianRouteCommandArg66
     \ "MO2ElectronIntegrals"
     \ containedin=gaussianRouteCommandRegion66
     \ contained
@@ -5171,6 +5247,22 @@ syntax match gaussianRouteCommandArg66
     \ contained
 syntax match gaussianRouteCommandArg66
     \ "GIAOInts"
+    \ containedin=gaussianRouteCommandRegion66
+    \ contained
+syntax match gaussianRouteCommandArg66
+    \ "AO2ElectronIntegrals"
+    \ containedin=gaussianRouteCommandRegion66
+    \ contained
+syntax match gaussianRouteCommandArg66
+    \ "Derivatives"
+    \ containedin=gaussianRouteCommandRegion66
+    \ contained
+syntax match gaussianRouteCommandArg66
+    \ "AO2ElDerivatives"
+    \ containedin=gaussianRouteCommandRegion66
+    \ contained
+syntax match gaussianRouteCommandArg66
+    \ "Files"
     \ containedin=gaussianRouteCommandRegion66
     \ contained
 
@@ -5743,6 +5835,14 @@ syntax match gaussianRouteCommand "\<Polar\>"
     \ containedin=gaussianRouteRegion
     \ contained
 
+syntax match gaussianRouteCommandArg71
+    \ "ROA"
+    \ containedin=gaussianRouteCommandRegion71
+    \ contained
+syntax match gaussianRouteCommandArg71
+    \ "Raman"
+    \ containedin=gaussianRouteCommandRegion71
+    \ contained
 syntax match gaussianRouteCommandArg71
     \ "OptRot"
     \ containedin=gaussianRouteCommandRegion71

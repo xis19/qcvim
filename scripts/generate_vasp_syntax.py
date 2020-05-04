@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 
+import datetime
 import jinja2
 import json
 import sys
@@ -10,7 +11,7 @@ VIM_SYNTAX_TEMPLATE = """\
 " VASP INCAR VIM highlight file
 " Language:         VASP_INCAR
 " Maintainer:       Xiaoge Su (magichp@gmail.com)
-" Last Revision:    Wed Jul 04 01:03:17 PDT 2018
+" Last Revision:    {{ now }}
 " Version:          0.1
 
 if version < 600
@@ -55,7 +56,10 @@ def vasp_incar_keywords():
 
 def main() -> int:
     keywords = list(vasp_incar_keywords())
-    print(jinja2.Template(VIM_SYNTAX_TEMPLATE).render(keywords=keywords))
+    print(jinja2.Template(VIM_SYNTAX_TEMPLATE).render(
+        now=datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'),
+        keywords=keywords
+    ))
     return 0
 
 if __name__ == '__main__':

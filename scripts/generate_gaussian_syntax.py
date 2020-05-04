@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import collections
+import datetime
 import functools
 import jinja2
 import json
@@ -12,7 +13,7 @@ VIM_SYNTAX_TEMPLATE = """\
 " Gaussian VIM highlight file
 " Language:         Gaussian
 " Maintainer:       Xiaoge Su (magichp@gmail.com)
-" Last Revision:    Sat Jul 22 00:05:47 PDT 2017
+" Last Revision:    {{ now }}
 " Version:          0.1
 
 if version < 600
@@ -125,6 +126,7 @@ def main() -> int:
         keyword_dicts[route] = keywords[route]
 
     print(jinja2.Template(VIM_SYNTAX_TEMPLATE).render(
+        now=datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'),
         gaussianLink0Commands=link0_commands,
         gaussianRouteCommands=keyword_dicts
     ))

@@ -14,7 +14,7 @@ class INCARKeywordItem(scrapy.Item):
 class INCARWikiSpider(scrapy.spiders.CrawlSpider):
 
     name = 'VaspIncar'
-    allowed_domains = ['cms.mpi.univie.ac.at']
+    allowed_domains = ['cms.mpi.univie.ac.at', 'www.vasp.at']
     start_urls = [INCAR_WIKI_URL]
     rules = [
         scrapy.spiders.Rule(
@@ -30,12 +30,12 @@ class INCARWikiSpider(scrapy.spiders.CrawlSpider):
             callback='parse_keyword'
         )
     ]
-        
+
     def parse_keyword(self, response: scrapy.http.response.html.HtmlResponse):
         self.logger.info('Found new keyword page: {}'.format(response.url))
-        
-        keyword = response.css('div[id=mw-content-text] p strong::text').extract_first()
-        
+
+        keyword = response.css('a.mw-selflink.selflink::text').get()
+
         if keyword:
             yield INCARKeywordItem(keyword=keyword)
 
